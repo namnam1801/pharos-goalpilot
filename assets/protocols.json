@@ -1,0 +1,85 @@
+{
+  "protocols": [
+    {
+      "name": "FaroSwap",
+      "type": "dex",
+      "url": "https://docs.faroswap.xyz",
+      "actions": ["swap", "add_liquidity", "remove_liquidity"],
+      "risk": "medium",
+      "risk_score": 45,
+      "apy_range": [3.5, 18.0],
+      "tokens": ["PHRS", "USDT", "USDC", "WETH"],
+      "contract_verified": true,
+      "notes": "Main DEX on Pharos. Concentrated liquidity V3 style."
+    },
+    {
+      "name": "Pharos Harbor",
+      "type": "yield_vault",
+      "url": "https://port.pharos.xyz/harbor",
+      "actions": ["deposit", "withdraw", "claim_rewards"],
+      "risk": "low",
+      "risk_score": 20,
+      "apy_range": [6.0, 12.0],
+      "tokens": ["PHRS", "USDT"],
+      "contract_verified": true,
+      "notes": "Official Pharos yield vaults. Audited. Lower APY but safer."
+    },
+    {
+      "name": "PROS Pixel",
+      "type": "campaign",
+      "url": "https://prospixel.xyz",
+      "actions": ["participate", "stake_pros"],
+      "risk": "low",
+      "risk_score": 15,
+      "apy_range": [0, 0],
+      "tokens": ["PROS"],
+      "contract_verified": true,
+      "notes": "Campaign activity. Earn campaign points by staking PROS."
+    },
+    {
+      "name": "Pharos Port Swap",
+      "type": "dex_aggregator",
+      "url": "https://port.pharos.xyz/swap",
+      "actions": ["swap"],
+      "risk": "low",
+      "risk_score": 10,
+      "apy_range": [0, 0],
+      "tokens": ["PHRS", "USDT", "USDC", "WETH", "PROS"],
+      "contract_verified": true,
+      "notes": "Official Pharos swap aggregator. Best for simple swaps."
+    },
+    {
+      "name": "Pharos Staking",
+      "type": "staking",
+      "url": "https://port.pharos.xyz",
+      "actions": ["stake", "unstake", "claim"],
+      "risk": "low",
+      "risk_score": 18,
+      "apy_range": [8.0, 14.0],
+      "tokens": ["PROS"],
+      "contract_verified": true,
+      "notes": "Native PROS staking. Low risk, steady yield."
+    },
+    {
+      "name": "Blockwave Campaign",
+      "type": "campaign",
+      "url": "https://port.pharos.xyz/blockwaver",
+      "actions": ["participate", "claim_rewards"],
+      "risk": "low",
+      "risk_score": 5,
+      "apy_range": [0, 0],
+      "tokens": ["PHRS", "PROS"],
+      "contract_verified": true,
+      "notes": "Current Pharos campaign. Requires active wallet."
+    }
+  ],
+  "token_prices_usd": {
+    "PHRS": 0.52,
+    "PROS": 0.18,
+    "USDT": 1.00,
+    "USDC": 1.00,
+    "WETH": 2610.0
+  },
+  "updated_at": "2026-05-27T00:00:00Z",
+  "note": "APY values are estimates. Always verify on-chain before execution."
+}
