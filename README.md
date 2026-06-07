@@ -63,14 +63,14 @@ This runs 5 showcase scenarios with a mock wallet — no RPC, no address needed.
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pharos-goalpilot
+git clone https://github.com/namnam1801/pharos-goalpilot
 cd pharos-goalpilot
 pip install -r requirements.txt
 ```
 
 **Or via Pharos Skill Engine:**
 ```bash
-npx skills add https://github.com/YOUR_USERNAME/pharos-goalpilot
+npx skills add https://github.com/namnam1801/pharos-goalpilot
 ```
 
 ---
